@@ -6,4 +6,30 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  text-align: center;
+}
+
+/* .teamSpace {
+  display: flex;
+
+} */
+.team-1,
+.team-2 {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 1em;
+  padding: 1em;
+}
+
+.horizontalFlex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin: 1em;
+  padding: 1em;
+}
+
+.totalScore1,
+.totalScore2 {
+  font-size: 400%;
 }

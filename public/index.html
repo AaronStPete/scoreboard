@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Scoreboard</title>
-    <link rel="stylesheet" href="/screen.css">
+    <link rel="stylesheet" href="./screen.css">
   </head>
   <body>
-    <h1>Hello, World!</h1>
-    <script src="/main.js" charset="utf-8"></script>
+    
+    <header><h1>My Score Board</h1></header> 
+    <section class="teamSpace horizontalFlex">
+      <section class="team-1">
+        <span class="team1Name">Team 1</span>
+        
+        <span class="totalScore1">0</span>
+        
+        <Section class="horizontalFlex">
+          <span>Update Team Name</span>
+          <div><input type="text"></div>
+          <div><button>Update</button></div>
+        </Section>
+        
+        <section class="horizontalFlex">
+          <span>Update Team Score</span>
+          <div><button>Add 1</button></div>
+          <div><button>Subtract 1</button></div>
+        </section>
+
+      </section>
+      
+      <section class="team-2">
+          <span class="team2Name">Team 2</span>
+        
+          <span class="totalScore2">0</span>
+          
+          <Section class="horizontalFlex">
+            <span>Update Team Name</span>
+            <div><input type="text"></div>
+            <div><button>Update</button></div>
+          </Section>
+          
+          <section class="horizontalFlex">
+            <span>Update Team Score</span>
+            <div><button>Add 1</button></div>
+            <div><button>Subtract 1</button></div>
+          </section>
+      </section>
+     </section> 
+    <script src="./main.js" charset="utf-8"></script>
   </body>
 </html>
